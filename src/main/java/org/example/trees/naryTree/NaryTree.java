@@ -1,10 +1,14 @@
-package org.example;
+package org.example.trees.naryTree;
 
 public class NaryTree<T> {
-    NaryNode<T> root;
+    protected NaryNode<T> root;
 
     public NaryTree(T rootData) {
         root = new NaryNode<>(rootData);
+    }
+
+    public NaryTree(NaryNode<T> root) {
+        this.root = root;
     }
 
     // Puedes agregar más métodos según lo necesites para operaciones del árbol n-ario.

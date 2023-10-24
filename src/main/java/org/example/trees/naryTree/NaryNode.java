@@ -1,11 +1,11 @@
-package org.example;
+package org.example.trees.naryTree;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class NaryNode<T> {
-    T data;
-    List<NaryNode<T>> children;
+    protected T data;
+    protected List<NaryNode<T>> children;
 
     public NaryNode(T data) {
         this.data = data;
@@ -27,4 +27,6 @@ public class NaryNode<T> {
     public T getData() {
         return this.data;
     }
+
+
 }
