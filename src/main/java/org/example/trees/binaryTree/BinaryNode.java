@@ -1,13 +1,19 @@
 package org.example.trees.binaryTree;
 
 import org.example.trees.naryTree.NaryNode;
+
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Representa un nodo binario.
  * @param <T> el tipo de datos almacenado en el nodo.
  */
-public class BinaryNode<T> extends NaryNode<T> {
+public class BinaryNode<T> extends NaryNode<T> implements Serializable {
+
+    private BinaryNode() {
+        super();
+    }
 
     /**
      * Constructor para BinaryNode.
@@ -26,10 +32,25 @@ public class BinaryNode<T> extends NaryNode<T> {
         }
         // Verifica si ya tiene dos hijos.
         if (super.children.size() == 2) {
-            throw new IndexOutOfBoundsException("");
+            throw new IndexOutOfBoundsException("Se excedió el límite de hijos.");
         }
         // Agrega el hijo al nodo.
         super.addChild(child);
+    }
+
+    // Agrega un hijo al nodo binario en la posición dada.
+    @Override
+    public void addChild(NaryNode<T> child, int pos) {
+        // Verifica si el nodo es una instancia de BinaryNode.
+        if (!(child instanceof BinaryNode)){
+            throw new IllegalArgumentException("El nodo debe ser una instancia de BinaryNode.");
+        }
+        // Verifica si ya tiene dos hijos.
+        if (super.children.size() == 2) {
+            throw new IndexOutOfBoundsException("Se excedió el límite de hijos.");
+        }
+        // Agrega el hijo al nodo.
+        super.addChild(child, pos);
     }
 
     // Recorrido en pre-orden.

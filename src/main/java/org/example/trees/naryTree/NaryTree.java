@@ -1,11 +1,16 @@
 package org.example.trees.naryTree;
 
+import java.io.Serializable;
+
 /**
  * Representa un árbol n-ario.
  * @param <T> el tipo de datos almacenado en el árbol.
  */
-public class NaryTree<T> {
+public class NaryTree<T> implements Serializable {
     protected NaryNode<T> root;
+
+    protected NaryTree() {
+    }
 
     /**
      * Constructor para NaryTree.

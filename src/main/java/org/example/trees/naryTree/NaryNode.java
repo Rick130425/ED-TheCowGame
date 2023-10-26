@@ -1,5 +1,6 @@
 package org.example.trees.naryTree;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,9 +8,12 @@ import java.util.List;
  * Representa un nodo n-ario.
  * @param <T> el tipo de datos almacenado en el nodo.
  */
-public class NaryNode<T> {
+public class NaryNode<T> implements Serializable {
     protected T data;
     protected List<NaryNode<T>> children;
+
+    protected NaryNode() {
+    }
 
     /**
      * Constructor para NaryNode.
@@ -25,6 +29,12 @@ public class NaryNode<T> {
     public void addChild(NaryNode<T> child) {
         // Añade el hijo a la lista.
         this.children.add(child);
+    }
+
+    // Agrega un hijo al nodo n-ario en la posición dada.
+    public void addChild(NaryNode<T> child, int pos) {
+        // Añade el hijo a la lista.
+        this.children.add(pos, child);
     }
 
     // Elimina un hijo del nodo n-ario.

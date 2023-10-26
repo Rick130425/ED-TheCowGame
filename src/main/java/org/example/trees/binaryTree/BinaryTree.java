@@ -2,6 +2,8 @@ package org.example.trees.binaryTree;
 
 import org.example.trees.naryTree.NaryNode;
 import org.example.trees.naryTree.NaryTree;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +11,10 @@ import java.util.List;
  * Representa un árbol binario.
  * @param <T> el tipo de datos almacenado en el árbol.
  */
-public class BinaryTree<T> extends NaryTree<T> {
+public class BinaryTree<T> extends NaryTree<T> implements Serializable {
+
+    protected BinaryTree() {
+    }
 
     /**
      * Constructor para BinaryTree.
@@ -37,7 +42,7 @@ public class BinaryTree<T> extends NaryTree<T> {
             throw new IllegalArgumentException("La raíz debe ser una instancia de BinaryNode.");
         }
         // Establece la nueva raíz.
-        this.root = newRoot;
+        super.setRoot(newRoot);
     }
 
     // Recorrido en pre-orden.
