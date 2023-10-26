@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * Representa un árbol binario.
+ *
  * @param <T> el tipo de datos almacenado en el árbol.
  */
 public class BinaryTree<T> extends NaryTree<T> implements Serializable {
@@ -18,30 +19,34 @@ public class BinaryTree<T> extends NaryTree<T> implements Serializable {
 
     /**
      * Constructor para BinaryTree.
+     *
      * @param rootData los datos para el nodo raíz.
      */
     public BinaryTree(T rootData) {
         super(rootData);
-        // Inicializa la raíz del árbol binario.
         this.root = new BinaryNode<>(rootData);
     }
 
     /**
      * Constructor para BinaryTree.
+     *
      * @param root el nodo raíz.
      */
     public BinaryTree(BinaryNode<T> root) {
         super(root);
     }
 
-    // Establece la raíz del árbol binario.
+    /**
+     * Establece la raíz del árbol binario.
+     *
+     * @param newRoot La nueva raíz.
+     * @throws IllegalArgumentException Si la nueva raíz no es una instancia de BinaryNode.
+     */
     @Override
     public void setRoot(NaryNode<T> newRoot) {
-        // Verifica si la nueva raíz es una instancia de BinaryNode.
         if (!(newRoot instanceof BinaryNode)) {
             throw new IllegalArgumentException("La raíz debe ser una instancia de BinaryNode.");
         }
-        // Establece la nueva raíz.
         super.setRoot(newRoot);
     }
 

@@ -1,13 +1,15 @@
 package org.example;
 
-import org.example.trees.binaryTree.BinaryNode;
-import org.example.trees.binaryTree.BinaryTree;
-import org.example.trees.naryTree.NaryNode;
-
-import java.util.ArrayList;
-import java.util.List;
-
+/**
+ * Punto de entrada principal para el juego TheCowGame.
+ */
 public class Main {
+
+    /**
+     * Método principal que inicia el juego.
+     *
+     * @param args Argumentos de la línea de comandos (no utilizados).
+     */
     public static void main(String[] args) {
         TheCowGame game = new TheCowGame("decisionTree.ser");
         game.start();
