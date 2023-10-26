@@ -19,7 +19,6 @@ public class TheCowGame {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(path))) {
             decisionTree = (BinaryTree<DecisionNode>) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
             decisionTree = new BinaryTree<>(new DecisionNode("¿Tiene cuernos?", null));
             decisionTree.getRoot().addChild(new BinaryNode<>(new DecisionNode(null, "Vaca")));
             decisionTree.getRoot().addChild(new BinaryNode<>(new DecisionNode(null, "Gato")));
