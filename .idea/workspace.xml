@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661f5e89-fa46-4982-86b8-8303a9747be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DecisionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TheCowGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="661f5e89-fa46-4982-86b8-8303a9747be2" name="Changes" comment="Se agregan comentarios a clases y métodos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheCowGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheCowGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/naryTree/NaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/naryTree/NaryNode.java" afterDir="false" />
@@ -44,39 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ricar/OneDrive/Escritorio/Tecmilenio ATC/3er Semestre/Estructura de datos/Entrega/11. Recorridos/Recorrido",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricar/OneDrive/Escritorio/Tecmilenio ATC/3er Semestre/Estructura de datos/Entrega/La Vaca (Final Boss)/TheCow&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ricar\OneDrive\Escritorio\Tecmilenio ATC\3er Semestre\Estructura de datos\Entrega\11. Recorridos\Recorrido\src\main\java\org\example\trees\binaryTree" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TheCow" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TheCow" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,21 +71,52 @@
       <workItem from="1698195697802" duration="6691000" />
       <workItem from="1698256114071" duration="5607000" />
       <workItem from="1698306937554" duration="52000" />
+      <workItem from="1698307132858" duration="4187000" />
+      <workItem from="1698336463742" duration="1269000" />
+      <workItem from="1698768853566" duration="304000" />
     </task>
+    <task id="LOCAL-00001" summary="Se agrega serialización a los árboles, se agrega la clase TheCowGame y se crea DecisionNode">
+      <option name="closed" value="true" />
+      <created>1698307483801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698307483801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se elimina la impresión de excepción en el constructor de la clase TheCowGame">
+      <option name="closed" value="true" />
+      <created>1698308157051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698308157051</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se elimina la impresión de excepción en el constructor de la clase TheCowGame">
+      <option name="closed" value="true" />
+      <created>1698308176784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698308176784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se agregan comentarios a clases y métodos">
+      <option name="closed" value="true" />
+      <created>1698309658564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698309658564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/TheCowGame.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agrega serialización a los árboles, se agrega la clase TheCowGame y se crea DecisionNode" />
+    <MESSAGE value="Se elimina la impresión de excepción en el constructor de la clase TheCowGame" />
+    <MESSAGE value="Se agregan comentarios a clases y métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregan comentarios a clases y métodos" />
   </component>
 </project>

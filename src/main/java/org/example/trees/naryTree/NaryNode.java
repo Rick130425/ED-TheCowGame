@@ -32,6 +32,7 @@ public class NaryNode<T> implements Serializable {
      * @param child El nodo hijo a agregar.
      */
     public void addChild(NaryNode<T> child) {
+        // Agrega un nodo hijo a la lista de hijos.
         this.children.add(child);
     }
 
@@ -42,6 +43,7 @@ public class NaryNode<T> implements Serializable {
      * @param pos   La posición donde se agregará el hijo.
      */
     public void addChild(NaryNode<T> child, int pos) {
+        // Agrega un nodo hijo en una posición específica.
         this.children.add(pos, child);
     }
 
@@ -51,6 +53,7 @@ public class NaryNode<T> implements Serializable {
      * @param child El nodo hijo a eliminar.
      */
     public void removeChild(NaryNode<T> child) {
+        // Elimina un nodo hijo de la lista.
         this.children.remove(child);
     }
 
@@ -60,6 +63,7 @@ public class NaryNode<T> implements Serializable {
      * @return Una lista de hijos del nodo.
      */
     public List<NaryNode<T>> getChildren() {
+        // Devuelve la lista de hijos del nodo.
         return this.children;
     }
 
@@ -69,6 +73,7 @@ public class NaryNode<T> implements Serializable {
      * @return Los datos almacenados en el nodo.
      */
     public T getData() {
+        // Devuelve los datos almacenados en el nodo.
         return this.data;
     }
 }

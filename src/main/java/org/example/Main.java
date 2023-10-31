@@ -11,7 +11,9 @@ public class Main {
      * @param args Argumentos de la línea de comandos (no utilizados).
      */
     public static void main(String[] args) {
+        // Crea una instancia del juego TheCowGame.
         TheCowGame game = new TheCowGame("decisionTree.ser");
+        // Inicia el juego.
         game.start();
     }
 }

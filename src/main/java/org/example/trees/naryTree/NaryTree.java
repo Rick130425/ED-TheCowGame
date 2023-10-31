@@ -19,6 +19,7 @@ public class NaryTree<T> implements Serializable {
      * @param rootData los datos para el nodo raíz.
      */
     public NaryTree(T rootData) {
+        // Inicializa el árbol con un nodo raíz.
         root = new NaryNode<>(rootData);
     }
 
@@ -28,6 +29,7 @@ public class NaryTree<T> implements Serializable {
      * @param root el nodo raíz.
      */
     public NaryTree(NaryNode<T> root) {
+        // Inicializa el árbol con un nodo raíz proporcionado.
         this.root = root;
     }
 
@@ -37,6 +39,7 @@ public class NaryTree<T> implements Serializable {
      * @param newRoot La nueva raíz.
      */
     public void setRoot(NaryNode<T> newRoot) {
+        // Establece un nuevo nodo raíz para el árbol.
         this.root = newRoot;
     }
 
@@ -46,6 +49,7 @@ public class NaryTree<T> implements Serializable {
      * @return El nodo raíz del árbol.
      */
     public NaryNode<T> getRoot() {
+        // Devuelve el nodo raíz del árbol.
         return this.root;
     }
 }

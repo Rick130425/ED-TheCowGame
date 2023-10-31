@@ -4,8 +4,6 @@ import org.example.trees.naryTree.NaryNode;
 import org.example.trees.naryTree.NaryTree;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Representa un árbol binario.
@@ -48,37 +46,5 @@ public class BinaryTree<T> extends NaryTree<T> implements Serializable {
             throw new IllegalArgumentException("La raíz debe ser una instancia de BinaryNode.");
         }
         super.setRoot(newRoot);
-    }
-
-    // Recorrido en pre-orden.
-    public List<T> preOrder() {
-        List<T> order = new ArrayList<>();
-        // Inicia el recorrido desde la raíz.
-        ((BinaryNode<T>) root).preOrder(order);
-        return order;
-    }
-
-    // Recorrido en in-orden.
-    public List<T> inOrder() {
-        List<T> order = new ArrayList<>();
-        // Inicia el recorrido desde la raíz.
-        ((BinaryNode<T>) root).inOrder(order);
-        return order;
-    }
-
-    // Recorrido en post-orden.
-    public List<T> postOrder() {
-        List<T> order = new ArrayList<>();
-        // Inicia el recorrido desde la raíz.
-        ((BinaryNode<T>) root).postOrder(order);
-        return order;
-    }
-
-    // Recorrido en orden de Euler.
-    public List<T> eulerOrder() {
-        List<T> order = new ArrayList<>();
-        // Inicia el recorrido desde la raíz.
-        ((BinaryNode<T>) root).eulerOrder(order);
-        return order;
     }
 }
