@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661f5e89-fa46-4982-86b8-8303a9747be2" name="Changes" comment="Se agregan comentarios a clases y métodos">
+    <list default="true" id="661f5e89-fa46-4982-86b8-8303a9747be2" name="Changes" comment="Completado de la función askNode, y agregación de comentarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheCowGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheCowGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/binaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/naryTree/NaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/naryTree/NaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trees/naryTree/NaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trees/naryTree/NaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricar/OneDrive/Escritorio/Tecmilenio ATC/3er Semestre/Estructura de datos/Entrega/La Vaca (Final Boss)/TheCow&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricar/OneDrive/Escritorio/Tecmilenio ATC/3er Semestre/Estructura de datos/Entrega/11. Recorridos/Recorrido&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,7 +68,9 @@
       <workItem from="1698306937554" duration="52000" />
       <workItem from="1698307132858" duration="4187000" />
       <workItem from="1698336463742" duration="1269000" />
-      <workItem from="1698768853566" duration="304000" />
+      <workItem from="1698768853566" duration="1474000" />
+      <workItem from="1698854953475" duration="852000" />
+      <workItem from="1698883307463" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega serialización a los árboles, se agrega la clase TheCowGame y se crea DecisionNode">
       <option name="closed" value="true" />
@@ -107,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698309658564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completado de la función askNode, y agregación de comentarios">
+      <option name="closed" value="true" />
+      <created>1698769378613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698769378614</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +122,7 @@
     <MESSAGE value="Se agrega serialización a los árboles, se agrega la clase TheCowGame y se crea DecisionNode" />
     <MESSAGE value="Se elimina la impresión de excepción en el constructor de la clase TheCowGame" />
     <MESSAGE value="Se agregan comentarios a clases y métodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregan comentarios a clases y métodos" />
+    <MESSAGE value="Completado de la función askNode, y agregación de comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completado de la función askNode, y agregación de comentarios" />
   </component>
 </project>
