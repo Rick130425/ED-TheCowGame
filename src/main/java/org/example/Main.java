@@ -12,7 +12,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // Crea una instancia del juego TheCowGame.
-        TheCowGame game = new TheCowGame("decisionTree.ser");
+        TheCowGame game = new TheCowGame();
         // Inicia el juego.
         game.start();
     }

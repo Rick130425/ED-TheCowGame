@@ -24,12 +24,10 @@ public class TheCowGame {
 
     /**
      * Constructor que carga el árbol de decisiones desde un archivo o crea uno nuevo si no existe.
-     *
-     * @param path Ruta del archivo que contiene el árbol de decisiones.
      */
-    public TheCowGame(String path) {
+    public TheCowGame() {
         // Intenta cargar el árbol de decisiones desde un archivo.
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(path))) {
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("decisionTree.ser"))) {
             decisionTree = (BinaryTree<DecisionNode>) ois.readObject();
         // Si no puede cargarlo, crea un árbol de decisiones predeterminado.
         } catch (IOException | ClassNotFoundException e) {
