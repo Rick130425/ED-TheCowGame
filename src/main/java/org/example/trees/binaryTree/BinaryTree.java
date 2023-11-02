@@ -12,6 +12,9 @@ import java.io.Serializable;
  */
 public class BinaryTree<T> extends NaryTree<T> implements Serializable {
 
+    /**
+     * Constructor para BinaryTree (necesario para la serialización).
+     */
     protected BinaryTree() {
     }
 

@@ -8,8 +8,14 @@ import java.io.Serializable;
  * @param <T> el tipo de datos almacenado en el árbol.
  */
 public class NaryTree<T> implements Serializable {
+    /**
+     * Nodo raíz.
+     */
     protected NaryNode<T> root;
 
+    /**
+     * Constructor para NaryTree (necesario para la serialización).
+     */
     protected NaryTree() {
     }
 

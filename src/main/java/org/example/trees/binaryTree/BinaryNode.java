@@ -11,6 +11,9 @@ import java.io.Serializable;
  */
 public class BinaryNode<T> extends NaryNode<T> implements Serializable {
 
+    /**
+     * Constructor para BinaryNode (necesario para la serialización).
+     */
     private BinaryNode() {
         super();
     }

@@ -10,9 +10,18 @@ import java.util.List;
  * @param <T> el tipo de datos almacenado en el nodo.
  */
 public class NaryNode<T> implements Serializable {
+    /**
+     * Información guardada en el nodo.
+     */
     protected T data;
+    /**
+     * Lista de hijos del nodo.
+     */
     protected List<NaryNode<T>> children;
 
+    /**
+     * Constructor para NaryNode (necesario para la serialización).
+     */
     protected NaryNode() {
     }
 
